@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mituri</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="calculator.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+  <script src="calculator.js"></script>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+  <!-- ***** MENU  NAVBAR *****  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-secondary sticky-top">
+    <div class="container-fluid">
+
+      <!--sigla-->
+      <a class="navbar-brand" href="bootstrap.html">&Vcy;&efr;<span>&fpartint;&ifr;&tfr; &check;</span></a>
+      <!--sigla-->
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+
+          <div class="btn-group  ms-4">
+            <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              NUTRIȚIE
+            </button>
+
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="sfaturiSanatate.html">Sfaturi pentru sănătate</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="reteteSanatoase.html">Rețete sănătoase</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="btn-group ">
+            <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              ANTRENAMENTE
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="incepatori.html">Începători</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="progAntrenament.html">Program antrenament</a>
+              </li>
+            </ul>
+          </div>
+
+          <a href="exercitii.html" class="btn btn-success" role="button" aria-pressed="true">
+            EXERCIȚII
+          </a>
+
+          <a href="mituri.html" class="btn btn-success" role="button" aria-pressed="true">
+            MITURI
+          </a>
+
+          <a href="calculator.html" class="btn btn-success" role="button" aria-pressed="true">
+            CALCULATOR
+          </a>
+      </div>
+    </div>
+  
+  </nav>
+
+
+
+  <!-- ***** MAIN ****  -->
+  <!-- div.container-fluid>p*6>lorem35  -->
+
+  <div class="container mt-5">
+    <div class="row">
+      <h1>Calculator indice de masă corporală</h1>
+      <main class="col-12 mt-5">
+
+        <h4 class="mb-2">Indicele de Masă Corporală IMC sau BMI</h4>
+        <div>
+          <p>
+            Indicele de masă corporală (IMC) reprezintă indicatorul oficial de calculare a greutăţii corporale ideale, în funcţie de o anumită înălţime dată, fiind, practic, un raport bazat pe greutatea şi înălţimea fiecărei persoane. 
+          </p>
+          <p>
+            IMC stabileşte grupa de greutate în care se încadrează o persoană, adică gradul obezităţii.
+          </p>
+          <p>
+            IMC poate fi utilizat în vederea calculării numărului de kilograme pe care o anumită persoană trebuie să le câştige sau să le piardă pentru a atinge greutatea ideală potrivită înălţimii fiecăruia.
+          </p>
+          <p>
+            Calcularea IMC este una dintre cele mai răspândite metodă pentru analiza gradului de obezitate.
+          </p>
+          <p>
+            Acest calculator IMC poate fi folosit de bărbaţi sau femei cu vârsta cuprinsă între 18 şi 65 de ani, nefiind potrivit pentru calcularea greutăţii de către copii, femei însărcinate, sportivi (din cauza masei musculare mari) sau vârstnici.
+          </p>
+
+    
+
+
+          <form class="form" id="form" onsubmit="return validateForm()">
+            <div class="row-one">
+              <input type="text" class="text-input" id="age" autocomplete="off" required />
+              <p class="text">Age</p>
+              <label class="container">
+                <input type="radio" name="radio" id="f">
+                <p class="text">Female</p>
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">
+                <input type="radio" name="radio" id="m">
+                <p class="text">Male</p>
+                <span class="checkmark"></span>
+              </label>
+            </div>
+
+            <div class="row-two">
+              <input type="text" class="text-input" id="height" autocomplete="off" required>
+              <p class="text">Height (cm)</p>
+              <input type="text" class="text-input" id="weight" autocomplete="off" required>
+              <p class="text">Weight (kg)</p>
+            </div>
+            <button id="submit">Submit</button>
+          </form>
+
+          <div class="bmi-result">
+            <p class="bmi-text"></p>
+            <p class="bmi-value"></p>
+          </div>
+
+        </div>
+
+      </main>
+
+    </div>
+  </div>
+
+
+  <!-- ****  FOOTER ****  -->
+  <footer class="bg-dark text-center text-white">
+
+    <!-- Grid container -->
+    <div class="container-fluid p-4 pb-0 ">
+      <!-- Section: Social media -->
+      <section class="mb-4 ">
+        <!-- Facebook -->
+        <a class="btn btn-outline-success btn-rounded me-2" href="https://www.facebook.com/" target="_blank"
+          title="Facebook " role="button">
+          <i class="fab fa-facebook-f"></i>
+          Facebook
+        </a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-success btn-rounded me-2" href="https://www.instagram.com/" target="_blank"
+          title="Instagram" role="button">
+          <i class="fab fa-instagram"></i>
+          Instagram
+        </a>
+
+        <!-- Github -->
+        <a class="btn btn-outline-success btn-rounded me-2" href="https://github.com/" target="_blank" title="Github"
+          role="button">
+          <i class="fab fa-github"></i>
+          Github
+        </a>
+
+        <!-- Contact-->
+        <a class="btn btn-outline-success btn-rounded me-2" href="contact.html" role="button">
+          <i class="fab fa-github"></i>
+          Contact
+        </a>
+
+      </section>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">
+        Befit.com
+      </a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+</body>
+
+</html>

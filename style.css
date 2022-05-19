@@ -1,0 +1,20 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+span {
+  color: #006442;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
