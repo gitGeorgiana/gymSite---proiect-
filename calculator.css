@@ -42,10 +42,10 @@ margin-left: 100px;
   outline: none;
   cursor: pointer;
 }
-/* 
+
 .text-input:last-child {
   margin-bottom: 35px;
-} */
+}
 
 .text-input:hover {
   background-color: rgb(59, 185, 122);
@@ -74,7 +74,7 @@ margin-left: 100px;
 }
 
 .row-one {
-  padding: 20px 10px 20px 5px;
+  padding: 20px 50px;
   display: flex;
 }
 
@@ -93,6 +93,7 @@ margin-left: 100px;
   padding-left: 30px;
   cursor: pointer;
   user-select: none;
+  max-width: 120px;
 }
 
 .checkmark {
@@ -132,4 +133,27 @@ margin-left: 100px;
   border:  3px solid white;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
+}
+
+
+
+.bmi-text {
+font-weight: bold;
+font-size: 20px;
+}
+
+.bmi-value {
+font-weight: bold;
+font-size: 20px;
+color: red;
+margin-bottom: 100px;
+}
+
+#strong{
+  margin-top:50px;
+  font-size: 18px;
+}
+
+#last-paragraf{
+  margin-bottom: 80px;
 }
