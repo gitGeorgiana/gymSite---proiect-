@@ -8,7 +8,8 @@ Bună ziua👋, numele meu este Georgiana Miron, sunt din Cluj-Napoca,Romania.
 
 - Pe viitor doresc să aduc niste îmbunătățiri la partea de banner cât și o funcționalitate a formularului  pe partea de back-end,deoarece momentan pagina nu necesită autentificare.
 
-- Ca si tehnologii pentru crearea acestei pagini, am folosit: **HTML,BOOTSTRAP,CSS,JS,GIT**
+- Ca si tehnologii pentru crearea acestei pagini, am folosit: 
+<!-- **HTML,BOOTSTRAP,CSS,JS,GIT** -->
 
 
 <p align="left"></p>
