@@ -110,10 +110,6 @@ margin-left: 100px;
   background-color: rgb(59, 185, 122);
 }
 
-/* .container input:checked ~ .checkmark {
-  background-color: rgb(231, 228, 228);
-} */
-
 
 .checkmark:after {
   content: "";
@@ -138,15 +134,15 @@ margin-left: 100px;
 
 
 .bmi-text {
-font-weight: bold;
-font-size: 20px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .bmi-value {
-font-weight: bold;
-font-size: 20px;
-color: red;
-margin-bottom: 100px;
+  font-weight: bold;
+  font-size: 20px;
+  color: green;
+  margin-bottom: 100px;
 }
 
 #strong{
@@ -156,4 +152,18 @@ margin-bottom: 100px;
 
 #last-paragraf{
   margin-bottom: 80px;
+}
+
+#result-text{
+  margin-top: 30px;
+
+}
+.result-list {
+margin-left: 100px;
+}
+
+.result-list strong{
+  color:green;
+  font-weight: bold;
+  
 }

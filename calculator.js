@@ -37,11 +37,11 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (18.5 <= bmi && bmi <= 24.9) {
       result = "BMI între 18,5 şi 24,9 (greutate normală)";
     } else if (25 <= bmi && bmi <= 29.9) {
-      result = "BMI între 25 şi 29, 99 (supraponderal)";
+      result = "BMI între 25 şi 29, 9 (supraponderal)";
     } else if (30 <= bmi && bmi <= 34.9) {
-      result = "BMI între 30 şi 34, 99 (obezitate, gradul I)";
+      result = "BMI între 30 şi 34, 9 (obezitate, gradul I)";
     } else if (35 <= bmi) {
-      result = "BMI între 35 şi 39, 99 (obezitate, gradul II)";
+      result = "BMI între 35 şi 39, 9 (obezitate, gradul II)";
     }
 
     var bmiText = document.getElementsByClassName("bmi-text")[0];
