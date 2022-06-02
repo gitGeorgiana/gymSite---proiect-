@@ -81,7 +81,7 @@
           </a>
       </div>
     </div>
-  
+
   </nav>
 
 
@@ -94,26 +94,60 @@
       <h1>Calculator indice de masă corporală</h1>
       <main class="col-12 mt-5">
 
-        <h4 class="mb-2">Indicele de Masă Corporală IMC sau BMI</h4>
+        <h4 class="mb-2">Indicele de Masă Corporală IMC sau BMI(Body Mass Index)</h4>
         <div>
           <p>
-            Indicele de masă corporală (IMC) reprezintă indicatorul oficial de calculare a greutăţii corporale ideale, în funcţie de o anumită înălţime dată, fiind, practic, un raport bazat pe greutatea şi înălţimea fiecărei persoane. 
+            Indicele de masă corporală (IMC) reprezintă indicatorul oficial de calculare a greutăţii corporale ideale,
+            în funcţie de o anumită înălţime dată, fiind, practic, un raport bazat pe greutatea şi înălţimea fiecărei
+            persoane.
           </p>
           <p>
             IMC stabileşte grupa de greutate în care se încadrează o persoană, adică gradul obezităţii.
           </p>
           <p>
-            IMC poate fi utilizat în vederea calculării numărului de kilograme pe care o anumită persoană trebuie să le câştige sau să le piardă pentru a atinge greutatea ideală potrivită înălţimii fiecăruia.
+            IMC poate fi utilizat în vederea calculării numărului de kilograme pe care o anumită persoană trebuie să le
+            câştige sau să le piardă pentru a atinge greutatea ideală potrivită înălţimii fiecăruia.
           </p>
           <p>
             Calcularea IMC este una dintre cele mai răspândite metode pentru analiza gradului de obezitate.
           </p>
           <p>
-            Acest calculator IMC poate fi folosit de bărbaţi sau femei cu vârsta cuprinsă între 18 şi 65 de ani, nefiind potrivit pentru calcularea greutăţii de către copii, femei însărcinate, sportivi (din cauza masei musculare mari) sau vârstnici.
+            Acest calculator IMC poate fi folosit de bărbaţi sau femei cu vârsta cuprinsă între 18 şi 65 de ani, nefiind
+            potrivit pentru calcularea greutăţii de către copii, femei însărcinate, sportivi (din cauza masei musculare
+            mari) sau vârstnici.
           </p>
 
-    
-<!-- calculator -->
+          <p id="result-text"><strong>Rezultatul tău se poate încadra în 5 categorii:</strong></p>
+          <ul class="result-list">
+
+            <li> <strong> < 18,5 </strong>
+              <ul>
+                <li>Subponderal, risc: <b>mediu</b></li>
+              </ul>
+            </li>
+            <li><strong>18,5 – 24,9 </strong>
+              <ul>
+                <li>Greutate normală, risc: <b>scăzut</b></li>
+              </ul>
+            </li>
+            <li><strong>25 – 29,9 </strong>
+              <ul>
+                <li>Supraponderal, risc: <b>mediu</b></li>
+              </ul>
+            </li>
+            <li><strong>30 – 34,9 </strong>
+              <ul>
+                <li>Obezitate gradul I, risc: <b>ridicat</b></li>
+              </ul>
+            </li>
+            <li><strong> > 35 </strong>
+              <ul>
+                <li>Obezitate gradul II, risc: <b>ridicat</b></li>
+              </ul>
+            </li>
+          </ul>
+
+          <!-- calculator -->
 
           <form class="form" id="form" onsubmit="return validateForm()">
             <div class="row-one">
@@ -137,7 +171,7 @@
               <input type="text" class="text-input" id="weight" autocomplete="off" required>
               <p class="text">Weight (kg)</p>
             </div>
-            <button id="submit">Submit</button>
+            <button id="submit">Send</button>
           </form>
 
           <div class="bmi-result">
@@ -150,11 +184,18 @@
           </p>
 
           <p>
-            Un rezultat prea mic sau prea mare îţi poate creşte riscurile de a dezvolta afecţiuni legate de felul în care organismul reacţionează la mâncare. Două dintre cele mai comune astfel de riscuri sunt cel de a dezvolta diabet sau hipertensiune. Potrivit unui studiu efectuat pe femei albe, non-hispanice, s-a demostrat că un rezultat mai mare înseamnă riscuri mari. 
+            Un rezultat prea mic sau prea mare îţi poate creşte riscurile de a dezvolta afecţiuni legate de felul în
+            care organismul reacţionează la mâncare. Două dintre cele mai comune astfel de riscuri sunt cel de a
+            dezvolta diabet sau hipertensiune. Potrivit unui studiu efectuat pe femei albe, non-hispanice, s-a demostrat
+            că un rezultat mai mare înseamnă riscuri mari.
           </p>
 
           <p id="last-paragraf">
-            Totuşi, ţine cont că acesta este un indicator, nu un diagnostic medical. Poţi să integrezi fructe şi legume în dietă, în locul alimentelor nesănătoase, ca să ai un stil de viaţă benefic pe termen lung. Însă nu îţi recomandăm să treci la diete severe şi programe solicitante. Dacă vrei să iei acţiuni de acest fel, <strong>programează-te la un nutriţionist</strong>, vorbeşte despre rezultate şi abordează subiectul unei potenţiale schimbări.
+            Totuşi, ţine cont că acesta este un indicator, nu un diagnostic medical. Poţi să integrezi fructe şi legume
+            în dietă, în locul alimentelor nesănătoase, ca să ai un stil de viaţă benefic pe termen lung. Însă nu îţi
+            recomandăm să treci la diete severe şi programe solicitante. Dacă vrei să iei acţiuni de acest fel,
+            <strong>programează-te la un nutriţionist</strong>, vorbeşte despre rezultate şi abordează subiectul unei
+            potenţiale schimbări.
           </p>
 
         </div>
