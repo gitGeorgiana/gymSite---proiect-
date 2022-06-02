@@ -6,14 +6,14 @@ Bună ziua👋, numele meu este Georgiana Miron, am 31 de ani și sunt din Cluj-
 - Aceasta este prima mea pagina web, [BeFit](https://github.com/gitGeorgiana/gymSite---proiect-)
 - Doresc ca această pagină sa fie una informativă, astfel încât să ajute atât persoanele pasionate cât și pe cele care caută anumite informații despre o viață sănătoasă.
 
-- Ca si tehnologii pentru crearea acestei pagini, am folosit: **HTML,BOOTSTRAP,CSS,JS,GIT**
-- Pe viitor doresc să implementez niște imagini la partea de banner cât și o funcționalitate a formularului , pe partea de back-end, momentan pagina nu necesită autentificare.
+- Pe viitor doresc să aduc niste îmbunatățiti la partea de banner cât și o funcționalitate a formularului  pe partea de back-end,deoarece momentan pagina nu necesită autentificare.
 
-<h3 align="left">Connect with me:</h3>
+- Ca si tehnologii pentru crearea acestei pagini, am folosit: **HTML,BOOTSTRAP,CSS,JS,GIT**
+
+
 <p align="left">
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> 
 </a> 
@@ -25,3 +25,5 @@ Bună ziua👋, numele meu este Georgiana Miron, am 31 de ani și sunt din Cluj-
 </a> 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
+
+ <h3 align="left">Contactează-mă: ing.georgianamiron@gmail.com</h3>
