@@ -1,5 +1,5 @@
 <h1 align="center">
-Bună ziua👋, numele meu este Georgiana Miron, sunt din Cluj-Napoca,Romania.
+Bună ziua👋,
 </h1>
 <h3 align="center">Proiectul meu se numeste BeFit,care oferă diferite informații atât pe partea de fitness cât și partea de sănătate,incluzând chiar și câteva rețete de mâncare.</h3>
 
