@@ -6,8 +6,6 @@ Bună ziua👋,
 - Aceasta este prima mea pagina web, [BeFit](https://github.com/gitGeorgiana/gymSite---proiect-)
 - Doresc ca această pagină sa fie una informativă, astfel încât să ajute atât persoanele pasionate cât și pe cele care caută anumite informații despre o viață sănătoasă.
 
-- Pe viitor doresc să aduc niste îmbunătățiri la partea de banner cât și o funcționalitate a formularului  pe partea de back-end,deoarece momentan pagina nu necesită autentificare.
-
 - Ca si tehnologii pentru crearea acestei pagini, am folosit: 
 <!-- **HTML,BOOTSTRAP,CSS,JS,GIT** -->
 
